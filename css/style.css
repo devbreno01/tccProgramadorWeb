@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    /*border: 2px solid red;*/
+    
+    height: 68.9px;
+    /*background-color: black;*/
+}
+
+#logo{
+    width: 90px;
+    height:90px;
+    margin-left: 76px;
+   
+   /* border: 2px solid red;*/
+}
+.nav-container1{
+    margin-left: 300px;
+   /*border: 2px solid green;*/
+    display: flex; 
+    flex-direction:row; 
+    justify-content: center;
+    align-items: center;
+}
+.txt-nav{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-left: 60px;
+}
+#btn-nav{
+    width: 150px;
+    height: 38px;
+    border-radius: 20px;
+    margin-left: 60px;
+    text-decoration: none;
+    border: none;
+    background-color: red;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: white;
+}
+.txt-nav:hover{
+    text-decoration: underline;
+    color: whitesmoke
+}
+#btn-nav:hover{
+    background-color: rgb(239, 75, 75);
+}
+
+.container2{
+    margin-top: 0px;
+    
+    height: 510px;
+    background-image: url(../imagensHapkido/Infight\ Hapkido\ .png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.txt-container2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 250px;
+   /* border: 2px solid saddlebrown;*/
+    padding: 0;
+    margin-bottom: 100px;
+    
+}
+.titulo-container2{
+    padding-bottom: 0;
+    margin-bottom: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 66.50px;
+     font-weight: 1000;
+    color: rgb(255, 0, 0);
+    
+    
+   
+}
+.subtitulo-container2{
+    margin-top: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+.container3{
+    height: 578px;
+   /* border: 2px solid rgb(255, 168, 168);*/
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.img-container3{
+    /*border: 2px solid white;*/
+    padding-top: 150px;
+    margin-left: 76px;
+    
+}
+
+.txt-container3{
+    /*border: 2px solid green;*/
+    margin-right: 100px;
+    margin-left: 40px;
+}
+
+#h2-txt-container3{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 43px;
+    padding-top: 60px;
+}
+#h3-txt-container3{
+    margin-top: 30px;
+    color:white; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+#sub{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+/*.container4{
+    
+    border: 2px solid rgb(255, 153, 153);
+}*/
+.h2-txt-container4{
+    /*border: 2px solid white;*/
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 43px;
+   padding-left: 430px;
+    margin-top: 50px;
+    margin-bottom: 2px;
+}
+
+.conteudo-container4{
+    /*border: 2px solid white;*/
+   padding-top: 0;
+   display: flex;
+}
+#img-container4{
+    width: 600px;
+    height: 400px;
+    margin-left: 123px;
+    margin-right: 50px;
+    margin-top: 30px;
+    background-image: url(../imagensHapkido/IMG-20220616-WA0085.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(255, 223, 223, 0.2);
+    
+}
+#h4-container4{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 100px;
+}
+#sub-container4{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    padding-right: 100px;
+}
+.container5{
+    padding-bottom: 50px;
+}
+#h2-container5{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 43px;
+    /*border: 2px solid white;*/
+    text-align: center;
+    margin-top: 50px;
+}
+.h6-container5{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+}
+.p-container5{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    margin-left: 50px;
+    padding-right: 50px;
+}
+.container6{
+    height: 600px;
+    background-image: url(../imagensHapkido/008\(2x\).jpg);
+   background-size: cover;
+   display: flex;
+  
+   align-items: center;
+  
+}
+.conteudo-container6{
+    width: 300px;
+    background-color: #1E1E1E;
+    padding: 10px;
+    margin-left: 600px;
+   
+}
+#h6-container6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 29px;
+    color: white;
+    text-align: center;
+}
+#p1-container6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    margin-top: 5px;
+    color: white;
+}
+.p-container6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color:white;
+    margin-top: 15px;
+}
+.container7{
+    padding-top: 50px;
+}
+.h4-container7{
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    text-align: center;
+    color: white;
+}
+#entidade{
+    /*border: 2px solid white;*/
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.entidade{
+   /* border: 2px solid red;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.p-container7{
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    text-align: center;
+    color: white;
+}
+#logo-container7{
+    width: 150px;
+    height: 150px;
+   /* border: 5px solid rgb(255, 0, 0);*/
+    margin-top: 5px;
+}
+/*#logo-container7-1{
+    border: 5px solid rgb(255, 0, 0);
+}*/
+#logo-container7-2{
+    /*border: 5px solid rgb(255, 0, 0);*/
+    width: 150px;
+    height: 150px;
+}
+/*.container8{
+    border: 2px solid rgb(255, 255, 255);
+}*/
+.container8 h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 43px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.cards{
+    /*border: 2px solid rgb(255, 104, 104);*/
+    display: flex;
+    justify-content: space-around;
+}
+.p-container8{
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    color: white;
+}
+.card-container8{
+    background-color: red;
+    width: 256px;
+    height: 300px;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 15px;
+
+}
+.container9{
+   
+    padding-bottom: 30px;
+
+}
+.container9 h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 43px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.container9 button{
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 60px;
+    text-decoration: none;
+    border: none;
+    background-color: red;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+}
+.container9 button:hover{
+    background-color:rgb(244, 74, 74);
+}
+
+footer{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+footer i{
+    color:rgb(255, 0, 0);
+    font-size: 25px;
+    padding-left: 30px;
+}
+footer label{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-left: 10px;
+    
+}
+
+
+
+
